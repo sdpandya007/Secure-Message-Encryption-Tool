@@ -146,5 +146,13 @@ If you want, I can also:
 
 Just say the word 😄
 
-## Live Demo
-https://secure-message-encryption-tool-i8b2wmzxqrzbjnykgx7skt.streamlit.app/
+## 🌐 Live Demo
+
+Try out the live demo of AgriHelper by visiting the link below:
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)] (https://secure-message-encryption-tool-i8b2wmzxqrzbjnykgx7skt.streamlit.app/) <!-- Replace with your actual demo URL -->
+
+This demo provides a fully functional version of Secure-Message-Encryption Tool hosted online. You can interact with the app directly in your browser without needing to install anything locally.
+
+---
+
