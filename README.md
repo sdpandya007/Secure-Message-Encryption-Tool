@@ -123,9 +123,8 @@ Educational encryption tool
 
 Message privacy practice
 
-👨‍💻 Author
-Shreyans Pandya
-Cyber Security & Computer Science Student
+Live Demo
+https://secure-message-encryption-tool-i8b2wmzxqrzbjnykgx7skt.streamlit.app/
 
 📄 License
 This project is for educational purposes only.
@@ -143,5 +142,6 @@ If you want, I can also:
 - Add **screenshots section**
 - Make a **project report (PDF/Word)**
 - Optimize wording for **GitHub stars ⭐**
+
 
 Just say the word 😄
