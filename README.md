@@ -1,7 +1,18 @@
 # 🔐 Secure Message Encryption Tool
 
-A simple and user-friendly **Streamlit web application** to encrypt, decrypt, and hash messages using secure cryptographic techniques.  
-This project is designed for **educational and personal use**, focusing on basic concepts of cybersecurity.
+A simple and interactive **Streamlit-based web application** to encrypt, decrypt, and hash messages using secure cryptographic techniques.  
+This project demonstrates core **Cyber Security and Cryptography concepts** in an easy-to-use interface.
+
+---
+
+## 🌐 Live Demo
+
+Try out the live demo of the **Secure Message Encryption Tool** by visiting the link below:
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://secure-message-encryption-tool-i8b2wmzxqrzbjnykgx7skt.streamlit.app/)
+
+This demo provides a fully functional version of the application hosted online.  
+You can use it directly in your browser without installing anything locally.
 
 ---
 
@@ -9,21 +20,21 @@ This project is designed for **educational and personal use**, focusing on basic
 
 - 🔒 **Fernet (AES) Encryption**
   - Password-based symmetric encryption
-  - Uses PBKDF2 with SHA-256 for key derivation
+  - Secure key derivation using PBKDF2 with SHA-256
 
 - 🔓 **Fernet Decryption**
-  - Decrypt encrypted messages using the same password
+  - Decrypt messages using the same password
 
 - 🔁 **Base64 Encoding & Decoding**
-  - Converts messages to/from Base64 format (not secure encryption)
+  - Converts messages into Base64 format (not secure encryption)
 
 - 🧾 **SHA-256 Hashing**
   - One-way hashing for data integrity verification
 
-- 🎨 **Attractive UI**
+- 🎨 **Modern UI**
   - Custom CSS styling
   - Sidebar navigation
-  - Responsive layout
+  - Responsive Streamlit layout
 
 ---
 
@@ -49,23 +60,23 @@ Install dependencies using:
 bash
 Copy code
 pip install -r requirements.txt
-▶️ How to Run the Application
+▶️ How to Run the Application Locally
 Clone the repository or download the source code
 
-Open terminal in the project directory
+Open a terminal in the project directory
 
-Run the Streamlit app:
+Run the application using:
 
 bash
 Copy code
 streamlit run app.py
-The app will open automatically in your browser 🌐
+The app will open automatically in your web browser 🌐
 
 📘 How to Use
-🔒 Encrypt Message
-Select Encrypt Message from sidebar
+🔒 Encrypt a Message
+Select Encrypt Message from the sidebar
 
-Choose encryption method:
+Choose an encryption method:
 
 Fernet (AES)
 
@@ -75,60 +86,61 @@ SHA-256 Hash
 
 Enter your message
 
-Enter password (for Fernet only)
+Enter a password (required for Fernet)
 
 Click Encrypt Message
 
-🔓 Decrypt Message
-Select Decrypt Message from sidebar
+🔓 Decrypt a Message
+Select Decrypt Message from the sidebar
 
-Choose decryption method:
+Choose a decryption method:
 
 Fernet (AES)
 
 Base64 Decoding
 
-Paste encrypted message
+Paste the encrypted message
 
-Enter the same password (for Fernet)
+Enter the same password used for encryption
 
 Click Decrypt Message
 
 ⚠️ Important Notes
-🔐 Fernet encryption is symmetric – same password is required for encryption and decryption
+🔐 Fernet encryption is symmetric — the same password is required for encryption and decryption
 
-❌ SHA-256 hashes cannot be decrypted
+❌ SHA-256 hashing is one-way and cannot be decrypted
 
 ⚠️ Base64 is not encryption, only encoding
 
-🔑 Passwords are never stored
+🔑 Passwords are not stored anywhere
 
-🔒 Keep your password safe; data cannot be recovered without it
+🔒 Losing the password means losing access to encrypted data
 
 🔐 Security Best Practices
 Use strong and unique passwords
 
-Do not share encryption passwords
+Never share your encryption password
 
-Avoid using Base64 for sensitive data
+Avoid Base64 for sensitive information
 
-For critical systems, use advanced security mechanisms
+Use professional security tools for real-world applications
 
 📌 Use Cases
 Cyber Security mini-project
 
-Cryptography demonstration
+Cryptography practical demonstration
 
 Educational encryption tool
 
-Message privacy practice
+Secure message handling practice
 
-Live Demo
-https://secure-message-encryption-tool-i8b2wmzxqrzbjnykgx7skt.streamlit.app/
+👨‍💻 Author
+Shreyans Pandya
+Cyber Security & Computer Science Student
 
 📄 License
-This project is for educational purposes only.
-Free to use and modify for learning.
+This project is developed for educational purposes.
+Free to use and modify for learning and academic projects.
 
 🔐 Secure your messages. Protect your data.
 
@@ -137,22 +149,10 @@ Copy code
 
 ---
 
-If you want, I can also:
-- Customize it for **GTU / college project format**
-- Add **screenshots section**
-- Make a **project report (PDF/Word)**
-- Optimize wording for **GitHub stars ⭐**
+If you want next:
+- 📄 **Project Report (GTU format)**
+- 📸 **Screenshots section**
+- ⭐ **GitHub badges**
+- 🚀 **Deployment guide explanation**
 
-
-Just say the word 😄
-
-## 🌐 Live Demo
-
-Try out the live demo of AgriHelper by visiting the link below:
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)] (https://secure-message-encryption-tool-i8b2wmzxqrzbjnykgx7skt.streamlit.app/) <!-- Replace with your actual demo URL -->
-
-This demo provides a fully functional version of Secure-Message-Encryption Tool hosted online. You can interact with the app directly in your browser without needing to install anything locally.
-
----
-
+Just say it 😄
